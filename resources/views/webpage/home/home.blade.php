@@ -3,7 +3,7 @@
 
 @include("webpage.layouts.head",
 [
-    "title" => "Ringtone Nada Dering Telepon, Sms - Ringtone iPhone, Android",
+    "title" => "Ringtone tonos Dering Telepon, Sms - Ringtone iPhone, Android",
     "og_des" => "Llamada Nada Dering Telepon, Sms, iPhone, Telepon. 100.000+ Ringtone iPhone, Android: Nada tonos para Dering lucu, sms, keren, samsung, mp3, htc, sony, xiaomi....",
     "og_title" => "Ringtone Nada Dering Telepon, Sms - Ringtone iPhone, Android | ". env("WEB_NAME")
 ])
