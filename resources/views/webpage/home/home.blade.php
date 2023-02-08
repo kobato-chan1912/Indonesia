@@ -3,8 +3,8 @@
 
 @include("webpage.layouts.head",
 [
-    "title" => "Ringtone Nada Dering Telepon, Sms - Ringtone iPhone, Android | ". env("WEB_NAME"),
-    "og_des" => "Download Nada Dering Telepon, Sms, iPhone, Telepon. 100.000+ Ringtone iPhone, Android: Nada Dering lucu, sms, keren, samsung, mp3....",
+    "title" => "Ringtone Nada Dering Telepon, Sms - Ringtone iPhone, Android",
+    "og_des" => "Llamada Nada Dering Telepon, Sms, iPhone, Telepon. 100.000+ Ringtone iPhone, Android: Nada tonos para Dering lucu, sms, keren, samsung, mp3, htc, sony, xiaomi....",
     "og_title" => "Ringtone Nada Dering Telepon, Sms - Ringtone iPhone, Android | ". env("WEB_NAME")
 ])
 
@@ -286,6 +286,8 @@
 </section>
 
 @include("webpage.layouts.footer")
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-63e379abd69ec2ff"></script>
 
 </body>
 
