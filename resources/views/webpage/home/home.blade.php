@@ -14,6 +14,8 @@
     <div class="banner">
         <div class="container">
             @include("layouts.search_box")
+
+
             <br>
             <div style="clear:both;"></div>
 {{--            <span--}}
@@ -27,7 +29,33 @@
     </div>
     <div class="container b_margin" style="">
         <!-- <div class="container">-->
+        <div class="col-md-12 vtn-home">
+            <div class="box gt-box">
+                <br>
+                <div id="container-cfq">
+                    <div class="page-description summary">
+                        <h1 class="gt-title page-title"><i class="fa fa-bullhorn" aria-hidden="true">
+                                Nada Dering Telepon Gratis
+                            </i></h1>
+                        <div class="entry-content">
+                            @php echo $post @endphp
+                        </div>
+                        <div class="button">
+                            <button type="button" id="btnViewMore">lihat lebih banyak</button>
+                        </div>
+                    </div>
+                    &nbsp; &nbsp; &nbsp; &nbsp;
+                </div>
 
+                <div class="gt-container" style="display:none;">
+                    Download free ringtone for all mobile devices with more than 95.000 ringtones such as <a
+                        href="https://bestringtonesfree.net/funny-ringtones/">funny ringtone</a>, animal ringtone,
+                    <a href="https://bestringtonesfree.net/bollywood/">Bollywood ringtone</a>, etc
+
+
+                </div>
+            </div>
+        </div>
 
 
         <script>
@@ -253,34 +281,6 @@
             </div>
 
 
-        <div class="col-md-12 vtn-home">
-            <div class="box gt-box">
-                <br>
-                <div id="container-cfq">
-                    <div class="page-description summary">
-                        <h1 class="gt-title page-title"><i class="fa fa-bullhorn" aria-hidden="true">
-                                Descargar Tono
-                                de llamada 2022 mp3 gratis para tel&eacute;fonos
-                            </i></h1>
-                        <div class="entry-content">
-                            @php echo $post @endphp
-                        </div>
-                        <div class="button">
-                            <button type="button" id="btnViewMore">lihat lebih banyak</button>
-                        </div>
-                    </div>
-                    &nbsp; &nbsp; &nbsp; &nbsp;
-                </div>
-
-                <div class="gt-container" style="display:none;">
-                    Download free ringtone for all mobile devices with more than 95.000 ringtones such as <a
-                        href="https://bestringtonesfree.net/funny-ringtones/">funny ringtone</a>, animal ringtone,
-                    <a href="https://bestringtonesfree.net/bollywood/">Bollywood ringtone</a>, etc
-
-
-                </div>
-            </div>
-        </div>
         <br>
     </div>
 </section>
