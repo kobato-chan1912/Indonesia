@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Category;
 use App\Models\Post;
 use App\Models\Song;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 class WebPageCategoryController extends Controller
@@ -29,16 +30,16 @@ class WebPageCategoryController extends Controller
         $songs = Song::orderBy("id", "desc")->where("display", 1)->paginate(10);
         return $this->loadView($songs,
             "Nada dering terbaik",
-            "Nada dering terbaik - ". env("WEB_NAME"),
-            "Nada dering terbaik - ". env("WEB_NAME"));
+            "Nada Dering Terbaik ".Carbon::now()->year." - Download Nada Dering gratis",
+            "Download Nada Dering Terbaik to your phone, high quality mp3, m4r ringtones. Free ringtones NadaderingTelepon.Com for Phone");
     }
     public function popularSongs()
     {
         $songs = Song::orderBy("listeners", "desc")->where("display", 1)->paginate(10);
         return $this->loadView($songs,
             "Nada dering baru",
-            "Nada dering baru - ". env("WEB_NAME"),
-            "Nada dering baru - ". env("WEB_NAME"));
+            "Nada Dering Baru - Latest Ringtones for WA and iPhone",
+            "Nada Dering Baru in mp3 and m4r format for Wa and Iphones. We allow you to download this Ringtone for free On NadaderingTelepon.Com");
     }
 
     public function categorySongs($slug){
@@ -80,8 +81,8 @@ class WebPageCategoryController extends Controller
         $songs  = Song::orderBy("downloads", "desc")->where("display", 1)->paginate(10);
         return $this->loadView($songs,
             "Nada dering teratas",
-            "Nada dering teratas - ". env("WEB_NAME"),
-            "Nada dering teratas - ". env("WEB_NAME"));
+            "Nada Dering Teratas ".Carbon::now()->year." - 10,000+ Top Ringtones free",
+            "Download Nada Dering Teratas is available for your mobile phone. 500,000+ high quality iPhone Ringtones, free mp3 Ringtones latest for Phone");
     }
     public function search(Request $request, $search){
         $songs = Song::where('title', 'LIKE', "%$search%")->paginate(10);

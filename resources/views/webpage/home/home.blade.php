@@ -3,9 +3,9 @@
 
 @include("webpage.layouts.head",
 [
-    "title" => "Ringtone tonos Dering Telepon, Sms Ringtone iPhone, Android",
-    "og_des" => "Llamada Nada Dering Telepon, Sms, iPhone, Telepon. 100.000+ Ringtone iPhone, Android: Nada tonos para Dering lucu, sms, keren, samsung, mp3, htc, sony, xiaomi....",
-    "og_title" => "Ringtone Nada Dering Telepon, Sms - Ringtone iPhone, Android | ". env("WEB_NAME")
+    "title" => "Download Nada Dering gratis ".\Carbon\Carbon::now()->year." – NadaderingTelepon",
+    "og_des" => "Download Nada Dering Telepon.Top Nada Dering WA and Iphone. Many high quality ringtones, latest Ringtones MP3 available today.",
+    "og_title" => "Download Nada Dering gratis ".\Carbon\Carbon::now()->year." – NadaderingTelepon"
 ])
 
 <body>
